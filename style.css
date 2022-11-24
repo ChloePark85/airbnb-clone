@@ -42,3 +42,33 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.banner-container {
+    background-color: #f7f7f7; 
+    padding: 21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-text-left {
+    text-align: left; 
+    margin-left: 35px; 
+    font-size: 16px; 
+    font-weight: bold;
+}
+
+.banner-text-right {
+    text-align: right; 
+    margin-right: 35px; 
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
