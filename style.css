@@ -72,3 +72,62 @@ table {
 a {
     text-decoration: none;
 }
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 35px; 
+    width: 102px; 
+    height: 35px; 
+    padding: 24px
+}
+.header-right {
+    margin-right: 35px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.globe {
+    height: 16px;
+    width: 16px;
+    padding: 20px;
+}
+
+.register {
+    background: transparent;
+    cursor: pointer;
+    margin: 0;
+    text-align: inherit;
+    background-color: var(--f-mkcy-f);
+    border: 1px solid #dddddd;
+    width: 70px;
+    height: 40px;
+    border-radius: 21px;
+    transition: box-shadow 0.2s ease;
+    box-sizing: border-box;
+}
+
+.register-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-search {
+    width: 333px;
+    height: 47px;
+    border: 1px solid #dddddd;
+    border-radius: 21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
