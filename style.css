@@ -202,6 +202,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
+    width: 615px;
 }
 
 .copyright-info-right {
@@ -211,12 +212,27 @@ footer {
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
+    width: 306px;
 }
 
 .provider-info {
     font-size: 9px;
     font-weight: 100;
     padding: 10px;
+}
+
+.main-category-container {
+    display: grid;
+    height:78px;
+    border-bottom: #dddddd 1px solid;
+}
+
+.filter {
+    width: 78px;
+    height: 48px;
+    box-sizing: border-box;
+    border: #dddddd 1px solid;
+    border-radius: 10px;
 }
 
 

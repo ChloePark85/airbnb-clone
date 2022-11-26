@@ -12,8 +12,6 @@
     ></script>
   </head>
   <body>
-    <script type="text/javascript" src="script.js"></script>
-
     <!-- 배너 부분  -->
     <div class="banner-container">
       <span class="banner-text-left">2022 겨울 업그레이드를 소개합니다</span>
@@ -54,7 +52,7 @@
         </div>
       </div>
       <div class="header-right">
-        <span style="font-size: 13px; font-weight: 600"
+        <span id="host-suggest" style="font-size: 13px; font-weight: 600"
           >당신의 공간을 에어비앤비하세요</span
         >
         <img class="globe" src="img/globe.png" alt="" />
@@ -66,12 +64,13 @@
     </div>
 
     <!-- 메인 카테고리 부분 -->
-    <div class="main-category-section">
+    <div class="main-category-container">
       <div class="main-category"></div>
       <div class="filter"></div>
     </div>
 
     <!-- 목록 부분 -->
+    <script src="main.js"></script>
   </body>
 
   <!-- 푸터 부분 -->
@@ -96,7 +95,7 @@
           <span>한국어(KR)</span>
           <span>₩ KRW</span>
           <span>지원 및 참고자료</span>
-          <span>꺽쇠</span>
+          <span><i class="fa-solid fa-angle-up"></i></span>
         </div>
       </div>
       <div class="provider-info">
