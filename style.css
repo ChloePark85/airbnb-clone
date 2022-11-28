@@ -92,8 +92,24 @@ a {
     height: 36px; 
     padding: 24px
 }
+
+.logo-detail {
+    margin-left: 170px; 
+    width: 107px; 
+    height: 36px; 
+    padding: 24px
+}
+
 .header-right {
     margin-right: 78px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right-detail {
+    margin-right: 170px; 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -310,3 +326,30 @@ button {
     padding-bottom: 91px;
     position: relative;
 }
+
+.product-title-detail {
+    margin-top: 26px;
+    margin-bottom: 26px;
+    margin-left: 170px;
+    margin-right: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.product-detail-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.product-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
