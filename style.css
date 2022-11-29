@@ -76,7 +76,9 @@ table {
 
 a {
     text-decoration: none;
+    color: black;
 }
+
 
 .header-container {
     display: flex;
@@ -360,6 +362,28 @@ button {
     margin-right: 170px;
     margin-top: 49px;
 }
+
+table {
+    border: 1px solid #929292;
+    width: 322px;
+    height: 115px;
+    margin-left: 24px;
+    margin-right: 24px;
+    border-collapse: separate;
+    border-radius: 10px;
+}
+
+td, tr {
+    border: 1px solid #dddddd;
+    padding: 13px;
+}
+
+.booking-body {
+    margin-left: 170px;
+    margin-top: 64px;
+    margin-right: 170px;
+}
+
 
 
 

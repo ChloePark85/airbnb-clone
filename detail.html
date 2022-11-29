@@ -120,7 +120,10 @@
         </div>
       </div>
     </div>
-    <div class="product-info-detail">
+    <div
+      class="product-info-detail"
+      style="display: flex; flex-direction: row; justify-content: space-between"
+    >
       <div class="product-info-detail-left">
         <div
           class="product-info-1"
@@ -157,46 +160,195 @@
             />
           </div>
         </div>
-        <div class="product-info-2" style="padding: 34px; width: 654px">
-          <div class="product-info-2-row1">
-            <div class="product-info-2-row1-symbol"></div>
+        <div
+          class="product-info-2"
+          style="
+            width: 654px;
+            height: 246px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-bottom: 1px #dddddd solid;
+          "
+        >
+          <div
+            class="product-info-2-row1"
+            style="
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              margin-top: 33px;
+            "
+          >
+            <div class="product-info-2-row1-symbol">
+              <img
+                src="img/superhost.png"
+                style="width: 24px; height: 24px; margin-right: 21px"
+                alt=""
+              />
+            </div>
             <div
               class="product-info-2-row1-text"
               style="display: flex; flex-direction: column"
             >
-              <span>Jenny님은 슈퍼호스트입니다</span>
-              <span
+              <span style="font-weight: 500; margin-bottom: 10px"
+                >Jenny님은 슈퍼호스트입니다</span
+              >
+              <span style="font-size: 14px; font-weight: 100"
                 >슈퍼호스트는 풍부한 경험과 높은 평점을 자랑하며 게스트가
                 숙소에서 편안히 머무를 수 있도록 최선을 다하는
                 호스트입니다.</span
               >
             </div>
           </div>
-          <div class="product-info-2-row2">
-            <div class="product-info-2-row2-symbol"></div>
+          <div
+            class="product-info-2-row2"
+            style="display: flex; flex-direction: row; justify-content: left"
+          >
+            <div class="product-info-2-row2-symbol">
+              <img
+                src="img/checkin.png"
+                style="width: 24px; height: 24px; margin-right: 21px"
+                alt=""
+              />
+            </div>
             <div
               class="product-info-2-row2-text"
-              style="display: flex; flex-direction: column"
+              style="display: flex; flex-direction: column; text-align: left"
             >
-              <span>순조로운 체크인 과정</span>
-              <span
+              <span style="font-weight: 500; margin-bottom: 10px"
+                >순조로운 체크인 과정</span
+              >
+              <span style="font-size: 14px; font-weight: 100"
                 >최근 숙박한 게스트 중 100%가 체크인 과정에 별점 5점을 준
                 숙소입니다.
               </span>
             </div>
           </div>
-          <div class="product-info-2-row3">
-            <div class="product-info-2-row3-symbol"></div>
+          <div
+            class="product-info-2-row3"
+            style="
+              display: flex;
+              flex-direction: row;
+              justify-content: left;
+              margin-bottom: 33px;
+            "
+          >
+            <div class="product-info-2-row3-symbol">
+              <img
+                src="img/cancel.png"
+                style="width: 24px; height: 24px; margin-right: 21px"
+                alt=""
+              />
+            </div>
             <div
               class="product-info-2-row3-text"
-              style="display: flex; flex-direction: column"
+              style="
+                font-weight: 500;
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+              "
             >
               3월 4일 전까지 무료로 취소하실 수 있습니다.
             </div>
           </div>
         </div>
       </div>
-      <div class="product-info-detail-right"></div>
+      <div class="product-info-detail-right">
+        <div
+          class="price-box"
+          style="
+            width: 375px;
+            height: 497px;
+            border: #dddddd 1px solid;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+          "
+        >
+          <div
+            class="price-box-row1"
+            style="
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              width: 320px;
+              padding: 30px 15px 15px 30px;
+            "
+          >
+            <span>
+              <span style="font-weight: 700; font-size: 24px">₩820,387</span>
+              <span>/박</span>
+            </span>
+            <span>5.0 · 후기 5개</span>
+          </div>
+          <div class="price-box-row2">
+            <table>
+              <tr>
+                <td>
+                  <span
+                    style="
+                      font-size: 12px;
+                      font-weight: 600;
+                      margin-bottom: 5px;
+                    "
+                    >체크인</span
+                  ><br />
+                  <span style="font-size: 14px; font-weight: 300"
+                    >2023.4.3.</span
+                  >
+                </td>
+                <td>
+                  <span
+                    style="
+                      font-size: 12px;
+                      font-weight: 600;
+                      margin-bottom: 5px;
+                    "
+                    >체크아웃</span
+                  ><br />
+                  <span style="font-size: 14px; font-weight: 300"
+                    >2023.4.8.</span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <span
+                    style="
+                      font-size: 12px;
+                      font-weight: 600;
+                      margin-bottom: 5px;
+                    "
+                    >인원</span
+                  ><br />
+                  <span style="font-size: 14px; font-weight: 300"
+                    >게스트 1명</span
+                  >
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div
+            class="price-box-row3-button"
+            style="
+              background-color: #ff385c;
+              margin-left: 24px;
+              margin-right: 24px;
+              margin-top: 18px;
+              height: 48px;
+              width: 323px;
+              border-radius: 10px;
+              color: white;
+              text-align: center;
+              align-items: center;
+              padding: 18px 0;
+            "
+          >
+            <span style="margin-top: 18px">예약하기</span>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
